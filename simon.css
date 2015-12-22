@@ -1,0 +1,93 @@
+h1 {
+  /*text-align: center;*/
+  font-family: verdana;
+  position: relative;
+  top: 25%;
+  left: 40%;
+}
+
+.trump {
+  position: absolute;
+ /* background: url(trump.gif);*/
+  width: 700pt;
+  height: 400pt;
+  left: 325px;
+  top: 200px;
+}
+
+/*.background {
+  position: absolute;
+  top:170px;
+  width:640px;
+  height: 640px;
+  z-index:0;
+  background-color: #000;
+  border-radius: 310px;
+}*/
+
+
+.wrapper {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+.tile {
+	height: 150pt;
+	width: 150pt;
+	border: 1px solid black;
+	float: left;
+  margin: 5pt 5pt 5pt 5pt;
+
+}
+
+.green {
+  background-color: green;
+  border-top-left-radius: 100%;
+  opacity: 0.6;
+}
+
+.red {
+  background-color: red;
+  border-top-right-radius: 100%;
+  opacity: 0.6;
+}
+
+.yellow {
+  background-color: yellow;
+  clear: left;
+  border-bottom-left-radius: 100%;
+  opacity: 0.6;
+}
+
+.blue {
+  background-color: blue;
+  border-bottom-right-radius: 100%;
+  opacity: 0.6;
+}
+
+.start {
+  text-align: center;
+  /*height: 25pt;
+  width: 75pt;*/
+  border-radius: 50px;
+  background-color: gray;
+  color: black;
+  font-family: verdana;
+  border: .5em solid black;
+  font-weight: bold;
+}
+
+.status {
+  height: 25pt;
+  width: 200pt;
+  background-color: gray;
+  color: black;
+  text-align: center;
+  font-family: verdana;
+  position: relative;
+  bottom: 40%;
+  left: 38%;
+  margin-bottom: 10px;
+  /*border: .5em solid black;*/
+}
